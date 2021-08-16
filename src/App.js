@@ -82,7 +82,7 @@ export default function App() {
       <div>
         {database[genere].map((person) => {
           return (
-            <div class="container">
+            <div className="container">
               <h3>{person.name}</h3>
               <p>{person.description}</p>
               <p>rating:{person.rating}</p>
